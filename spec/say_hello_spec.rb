@@ -1,7 +1,7 @@
 
 
 def say_hello(name= "Ruby Programmer")
-  puts "Hello, #{name}"
+  puts "Hello, #filter_parameter_logging{name}"
 end
 
 say_hello("Gabriela")
